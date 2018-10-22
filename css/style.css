@@ -1,36 +1,45 @@
-body
+/* Body font style */
+body {
   font-size: 14px;
 }
-
+/* Navigation style */
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
+}
+/* Section width */
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/* H1 font style */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
-
+/* Grouping for H3 and .example style */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
-
+/* H3 font style */
 h3 {
   font-size: 1.3em;
 }
-
+/* Green background */
 .element {
   background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+}
+/* Pink background */
+.element-pink {
+  background-color: pink;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
+}
